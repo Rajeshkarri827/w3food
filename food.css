@@ -9,6 +9,40 @@
     flex:end;
    
 }
+.head a{
+    text-decoration: none;
+    color:black;
+}
+.head a:hover{
+    color:blue;
+    width:50px;
+}
+.title::before {
+    content: "🍴";
+    margin-right: 10px;
+}
+
+.title::after {
+    content: "🍷";
+    margin-left: 10px;
+}
+.blog-post::before {
+    content: "📝";
+    margin-right: 10px;
+}
+
+.tags span::before {
+    content: "#";
+    margin-right: 5px;
+    color: #555;
+}
+
+.tags span:hover::before {
+    color: white;
+}
+.footer-head a:hover{
+    color:red
+}
 
 .mail{
     font-family: karma,sans-serif;
